@@ -9,7 +9,7 @@ public class Main {
         //12.09.2023 Example no.1//
         Car car = new Car();
 
-        System.out.println(car.Company+car.Model+car.Color+car.Equipment+car.Year);
+        System.out.println(car.Company + car.Model + car.Color + car.Equipment + car.Year);
 
         System.out.println("\n\n");
 
@@ -31,7 +31,7 @@ public class Main {
         Food food7 = new Food("Jack Daniels");
         Food food8 = new Food("Ice Cubes");
 
-        Food[] Freezer = {food5,food6,food7,food8};
+        Food[] Freezer = {food5, food6, food7, food8};
 
         System.out.println(Freezer[0].name);
         System.out.println(Freezer[1].name);
@@ -64,7 +64,23 @@ public class Main {
         painBringers.Playin(game2);
         painBringers.Playin(game3);
 
-        System.out.println("Pain Meter :  "+painBringers.PainMeter);
+        System.out.println("Pain Meter :  " + painBringers.PainMeter);
+
+        System.out.println("\n________________________________\n");
+
+        //12.09.2023 Example no.4//
+
+        Friend friend1 = new Friend("Sasuke");
+        Friend friend2 = new Friend("Sakura");
+        Friend friend3 = new Friend("Ero Senin");
+
+        System.out.println("I have : "+Friend.numberOfFriends+" friends.  ");
+
+        Friend.displeyFriends();
+
+        System.out.println("\n________________________________\n");
+
+        //12.09.2023 Example no.5//
 
     }
 }
