@@ -50,8 +50,21 @@ public class Main {
         System.out.println(Lednicka[2].name);
         System.out.println(Lednicka[3].name);
 
+        System.out.println("\n________________________________\n");
+
         //12.09.2023 Example no.3//
 
+        PainBringers painBringers = new PainBringers();
+
+        Game game1 = new Game("Sekiro");
+        Game game2 = new Game("Elden Ring");
+        Game game3 = new Game("Bloodborne");
+
+        painBringers.Playin(game1);
+        painBringers.Playin(game2);
+        painBringers.Playin(game3);
+
+        System.out.println("Pain Meter :  "+painBringers.PainMeter);
 
     }
 }
